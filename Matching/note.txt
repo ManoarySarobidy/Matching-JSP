@@ -1,0 +1,50 @@
+ahoana no anaovana azy amin'izay
+
+Que vais-je mettre ?
+- Atao note ve de mitady azy
+
+- Comment matcher?
+
+-- Alaiko ny coefficients crietre anle mpitady
+-- Azoko ny coefficients critere any dia alaiko daholo ny info personnes rehetra ankoatra ahy
+-- rehefa azoko ny info personnes rehetra dia jereko hoe mifandray ve ny caracteres required ako sy ilay profil an'ilay olona
+-- andao atao coefficients daholo no fenoina aloha
+
+
+public DropDown initializeComponent() throws Exception{
+		String[] nationality = {"Malagasy","Europeanina"};
+		Integer[] back = { 1 , 0 };
+		DropDown dropdown = new DropDown( Function.initialize(nationality), Function.initialize(back) );
+		return dropdown;
+	}
+	public DropDown initializeSalaire() throws Exception{
+		String[] salary = {"1000","2000-4000","4000-6000","6000-7000","8000-9000","10000+"};
+		Integer[] coefficient = { 1 , 2 , 3 , 4 , 5 ,7 };
+		DropDown dropdown = new DropDown( Function.initialize(salary), Function.initialize(coefficient) );
+		return dropdown;
+	}
+	public DropDown initializeFinoana() throws Exception{
+		String[] finoana = { "Mpino" , "Tsy mpino" };
+		Integer[] back = { 1 , -1 };
+		DropDown dropdown = new DropDown( Function.initialize(finoana), Function.initialize(back) );
+		return dropdown;
+	}
+	public DropDown initializeDiplome() throws Exception{
+		String[] degres = {"Bacc"," Bacc+1 "," Bacc + 2 ", "License", "Master"};
+		Integer[] back = { 1 , 2 , 3 , 4 , 5};
+		DropDown dropdown = new DropDown( Function.initialize(degres), Function.initialize(back) );
+		return dropdown;
+	}
+	public DropDown initializeTeinte() throws Exception{
+		String[] teinte = { "Fotsy"," Mainty"};
+		Integer[] back = { 1 , -1 };
+		DropDown dropdown = new DropDown( Function.initialize( teinte ), Function.initialize(back) );
+		return dropdown;
+	}
+
+	public DropDown initializeHauteur() throws Exception{
+		String[] longeur = { "1m50 - 1m60","1m61-1m70","1m71-1m80","1m81-1m90","1m91+"};
+		Integer[] back = { 1 , 2 , 3 , 4 , 5 };
+		DropDown dropdown = new DropDown( Function.initialize( longeur ), Function.initialize(back) );
+		return dropdown;
+	}

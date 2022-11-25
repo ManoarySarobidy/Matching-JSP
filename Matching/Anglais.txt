@@ -1,0 +1,31 @@
+Q : question , R : response ( if me )
+
+1-Q : Can I ask who is favourite teacher?
+1-R : My favourite teacher was my old philosophy teacher.
+
+2-Q : Oh! Why he is your favorite teacher?
+2-R : When I was in last year in high school , he teach me how to open my mind to think deeply.
+
+3-Q : Can you describe him?
+3-R : He is tall, He is black, He have a white-hair colored.
+
+4-Q : Was everybody in your class liked him?
+4-R : Yes, he was admired by all the students.
+
+5-Q : What was the thing that make you remind of him?
+5-R : It must be the word "connaissance empirique".
+
+6-Q : Have you been punished by him once?
+6-R : Nope, He is really cool.
+
+7-Q : Why have you choosed not to become a teacher like him?
+7-R : Even if I admire him, I don't wanna be a teacher. I want to be an informatician.
+
+8-Q : Have you ever feel bored in his class?
+8-R : Never, his class was never boring.
+
+9-Q : Do you mind telling me his name?
+9-R : Sure, his name is Olivier.
+
+10-Q : If you have the chance, do you want to assist one last time in his course?
+10-R : Yes, It would be very interesting to assist in his course.
