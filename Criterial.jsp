@@ -20,7 +20,6 @@
 	form.getListeChamp().get(7).setTitle("Coefficient Hauteur");
 	form.getListeChamp().get(7).setType("Number");
 	form.getListeChamp().get(form.getListeChamp().size()-1).setVisibility(false);
-	String html = form.getHtml();
 
 
 %>
@@ -37,7 +36,7 @@
 	<div class="container">
 		<form action="add-Crit" method="post" style="display: flex;width: 50%;flex-direction: column;">
 			<%
-				out.println( html );
+				out.println( form.getHtml() );
 			%>
 			<input type="submit" value="Finish">
 		</form>
