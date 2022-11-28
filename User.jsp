@@ -21,7 +21,7 @@
 <body>
 	<div class="container">
 		<div class="form-User">
-			<form action="user" method="POST">
+			<form action="inscribe" method="POST">
 				<%
 					out.println(html);
 				%>
